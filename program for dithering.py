@@ -120,41 +120,4 @@ test_slopes = slope_over_time(data_from_file, -0.5)
 print('the test slopes are', test_slopes)
 plt.plot(test_slopes[0], test_slopes[1], color='blue')
 
-# =============================================================================
-# poging tot derivative werk
-# =============================================================================
-# def deriv(x,f):
-#      h = 0.1                 #step-size 
-#      return (f(x+h) - f(x))/h
-
-# for elem in range(len(time_points)): 
-#     time = time_points[elem]
-#     OD = OD_value[elem]
-#     print(time, OD)
-#     dero = deriv(time, OD)
-#     if dero > -0.1 and dero < 0.1:
-#         print(time)
-
-
-# derivative = [0.001, -0.01, 0.05, 1]
-
-# for elem in derivative: 
-#     if elem > -0.1 and elem < 0.1:
-#         print(elem)
-    
-
-# test_membrane_protein = new_z_chol_tov[10]
-
-# =============================================================================
-# prullebak
-# =============================================================================
-# high_y_value = tet[:, 1].max()
-# high_x_value = np.where(tet == high_y_value)
-# print(data_from_file.shape)
-
-# def find_high_and_low (time_vs_od_part):
-#     high_y_value = time_vs_od_part[:, 1].max()
-#     high_x_value = time_vs_od_part.find()
-#     pass
-
 
